@@ -8,5 +8,6 @@ RUN apt-get update && apt-get upgrade -y \
         telnetd \
         iproute2 \
         apache2-utils \
+        vim \
     && apt-get update && apt-get upgrade -y \
     && apt-get autoclean && apt-get autoremove -y
