@@ -9,5 +9,6 @@ RUN apt-get update && apt-get upgrade -y \
         iproute2 \
         apache2-utils \
         vim \
+        openssh-client \
     && apt-get update && apt-get upgrade -y \
     && apt-get autoclean && apt-get autoremove -y
