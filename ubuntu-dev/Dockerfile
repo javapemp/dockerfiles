@@ -5,7 +5,7 @@ RUN apt-get update && apt-get upgrade -y \
         curl \
         zip \
         iputils-ping \
-        telnetd \
+        telnet \
         iproute2 \
         apache2-utils \
         vim \
